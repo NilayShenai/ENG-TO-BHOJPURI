@@ -4,7 +4,7 @@
 World's first bhojpuri translator
 ## Instructions:
  1. download / clone it
- 2.  pip install englisttohindi t
+ 2.  pip install englisttohindi tk
  3. run gui.py 
 
 ## Image:
