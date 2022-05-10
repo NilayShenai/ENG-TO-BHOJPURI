@@ -9,3 +9,6 @@ World's first bhojpuri translator
 
 ## Image:
 ![xd](/images/1.png)
+
+##NOTE:
+USE REPLIT TO TRANSLATE : https://replit.com/@NilayShenai/ENG-TO-BHOJPURI-DEMO#.replit
