@@ -3,7 +3,7 @@ from englisttohindi import EngtoHindi
 import json
 
 # read dictionary file
-with open('D:/downloads/xd/ENG-TO-BHOJPURI/dictionary/bho-hin.json', 'r', encoding='utf8') as myfile:
+with open('dictionary/bho-hin.json', 'r', encoding='utf8') as myfile:
     data = myfile.read()
 
 # parse bhojpuri words from file
