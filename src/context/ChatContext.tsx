@@ -92,7 +92,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
     // Send to backend and add assistant message
     try {
-      const response = await fetch('http://localhost:5001/translate', {
+      const response = await fetch('https://eng-to-bhojpuri.onrender.com/translate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: content }),
