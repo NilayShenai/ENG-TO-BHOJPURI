@@ -3,7 +3,7 @@ from translator import translator
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all domains on all routes
+CORS(app, resources={r"/*": {"origins": "*"}}, allow_headers="*", supports_credentials=True)  # Allow all origins, headers, credentials
 
 @app.route('/translate', methods=['POST'])
 def translate():
