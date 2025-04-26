@@ -1,4 +1,4 @@
-# Bhojpuri Translator
+# Bhojpuri Translator(Crappy dictionary based)
 
 **(Probably) World's First Bhojpuri Translator**
 
